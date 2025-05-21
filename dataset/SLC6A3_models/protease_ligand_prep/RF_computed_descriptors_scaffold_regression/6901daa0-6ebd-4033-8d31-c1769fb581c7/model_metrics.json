@@ -1,0 +1,117 @@
+[
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "a10a8146b11b9ede8de5846865ead432",
+            "dataset_key": "/usr/WS1/ranganath2/code/fast3/data/dengue/denv2/protease_ligand_prep.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "dataset/SLC6A3_models/"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "aval"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "6901daa0-6ebd-4033-8d31-c1769fb581c7",
+        "prediction_results": {
+            "mae_score": 0.4549593256357227,
+            "mean_response_vals": [
+                2.826661938400789
+            ],
+            "num_compounds": 2026,
+            "r2_score": 0.894123861799116,
+            "rms_score": 0.9007437522304598,
+            "std_response_vals": [
+                2.7682302642831846
+            ]
+        },
+        "subset": "train",
+        "time_run": 1736978915.5087178
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "a10a8146b11b9ede8de5846865ead432",
+            "dataset_key": "/usr/WS1/ranganath2/code/fast3/data/dengue/denv2/protease_ligand_prep.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "dataset/SLC6A3_models/"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "aval"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "6901daa0-6ebd-4033-8d31-c1769fb581c7",
+        "prediction_results": {
+            "mae_score": 1.164532325909847,
+            "mean_response_vals": [
+                3.1857741999999996
+            ],
+            "model_choice_score": 0.6819152220531434,
+            "num_compounds": 369,
+            "r2_score": 0.6819152220531434,
+            "rms_score": 1.5576062831712476,
+            "std_response_vals": [
+                2.761761984322776
+            ]
+        },
+        "subset": "valid",
+        "time_run": 1736978915.5087187
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "a10a8146b11b9ede8de5846865ead432",
+            "dataset_key": "/usr/WS1/ranganath2/code/fast3/data/dengue/denv2/protease_ligand_prep.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "dataset/SLC6A3_models/"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "aval"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "6901daa0-6ebd-4033-8d31-c1769fb581c7",
+        "prediction_results": {
+            "mae_score": 1.08580211545138,
+            "mean_response_vals": [
+                3.4482951432038838
+            ],
+            "num_compounds": 412,
+            "r2_score": 0.6688622386862522,
+            "rms_score": 1.5220728126509484,
+            "std_response_vals": [
+                2.6450328763153355
+            ]
+        },
+        "subset": "test",
+        "time_run": 1736978915.50872
+    }
+]

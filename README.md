@@ -20,15 +20,11 @@ bash install.sh
 
 ## Creating/linking datasets
 
-### If dataset is available in (for example: /usr/worksapce/atom/)
+### How to download the dataset
 
-Create a symbolic links in <a href='./data'>data</a> to the directory where the datasets are stored.<br>
-```bash
-ln -s /usr/workspace/atom/pdbbind_ml/pdbbind2016 pdbbind2016
-ln -s /usr/workspace/atom/ml_fusion/v2020_final pdbbind2020
-ln -s /usr/workspace/atom/glo_spl/fusion/general_distributed_torch/1_generate_baseline_dataset mpro
-ln -s /usr/workspace/atom/glo_spl/affinity_files/fast2_test gmd
-```
+The dataset can be donwloaded from this ftp [link](ftp://gdo-bioinformatics.ucllnl.org/slab)
+
+Make sure to download all of the data to a data folder with name 'data'
 
 ### If dataset is not available, but raw docking files are present in folder
 
@@ -67,6 +63,7 @@ dengue (dataset)
 
 ```
 **Note:** Not all datasets will have a subset. This is an optional argument.
+Also, the data format should be in `.hdf5` file format
 
 ## Training
 There are sample scripts in <a href='./scripts'>scripts</a> directory.<br>
@@ -84,7 +81,7 @@ python train.py --config_path=${CONFIG_PATH} --tag=${TAG}
 Sample configurations can be found in the <a href='./configs'>configs</a> directory.
 
 **NOTE**: You do not need to specify the training directory.<br>
-If run as above, a unique identifiable directory will be created in `/usr/workspace/$USER` with `$TAG`.<br>
+If run as above, a unique identifiable directory will be created in `/usr/local/$USER` with `$TAG`.<br>
 Of course, you can specify the save directory by adding `--save_dir=${DIR}` flag.
 
 

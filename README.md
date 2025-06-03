@@ -24,7 +24,7 @@ bash install.sh
 
 The dataset can be donwloaded from this ftp [link](ftp://gdo-bioinformatics.ucllnl.org/slab)
 
-Make sure to download all of the data to a data folder with name 'data'
+Make sure to download all of the data to a data folder with name `data` in the current directory.
 
 ### If dataset is not available, but raw docking files are present in folder
 
